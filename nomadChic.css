@@ -1,0 +1,259 @@
+#menu {
+    background-color: #94DDD4;
+    -webkit-box-shadow: 0 0 3px #000;
+    -moz-box-shadow: 0 0 3px #000;
+    box-shadow: 0 0 3px #000;
+    text-align: left;
+    height: 60px;
+    width: 100%;
+}
+#menu {
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    padding: 0 15px;
+    height: 45px;
+    float: left;
+}
+#menu li {
+    display:block;
+    float: left;
+    line-height: 42px;
+    
+}
+#menu li:first-child {
+    padding-right: 8px;
+}
+#menu a {
+    text-decoration:none;
+    border-left: solid 1px black;
+    padding: 0 20px;
+    color: black;
+}
+
+
+/*These all apply only to the p tag.  Makes the font a sans-serif font.
+  Aligns the text to the center.  Sets top and bottom margins to 2%.  
+  Sets left and right margins to 20%.  */
+p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+    font-size: 22px;  
+    color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
+
+/*Aligns text to the center. Sets font to Sans-Serif*/
+h1
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 3%;
+    margin-top: 4%;
+    color: white;
+}
+
+h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    background-color: #85C7BF;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    z-index:0;
+    opacity:0.8;
+}
+
+h4
+{
+    margin: 3px;
+}
+body {
+  background-image: url("oldWood.jpg");
+}
+
+#small
+{
+    font-size: 15px;
+}
+
+/*Makes item float to the center of the page*/
+#centerthis
+{
+    text-align: center;
+}
+
+#blackback, p {
+    top:10%;
+    left:10%;
+    width:60%;
+    height:text;
+    background-color: #85C7BF;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    z-index:0;
+    opacity:0.8;
+}
+
+#welcome {
+    top:10%;
+    left:10%;
+    width:60%;
+    height:text;
+    background-color: #41251A;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    z-index:0;
+    opacity:0.8;
+    margin-top: 70px;
+}
+
+#blackbacksm {
+    top:10%;
+    left:10%;
+    width:60%;
+    height:text;
+    background-color: #85C7BF;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    z-index:0;
+    opacity:0.8;
+}
+
+#mylist
+{
+    top:10%;
+    left:10%;
+    width:70%;
+    height:text;
+    background-color: #85C7BF;
+    border-radius: 10px;
+    color: black;
+    text-align: left;
+    font-size: 23px;
+    margin-left: 2%;
+    padding: 10px;
+    z-index:0;
+    opacity:0.8;
+    margin: 60px 0px 10px;
+}
+
+/*Makes button in the middle of the page*/
+/*Not working currently*/
+.floatingbuttons
+{
+    margin: auto;
+    width: 99%;
+    float: center;
+    border-radius: 5px;
+}
+
+.container {
+    width: 100px;
+    height: 180px; 
+    margin-top: 15px;
+    margin-left:15px;
+}
+
+
+
+#weather {
+  width: 425px;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#weather h2 {
+  margin: 0 0 8px;
+  color: #fff;
+  font-size: 150px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+#weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+#weather li {
+  background: #fff;
+  background: rgba(255,255,255,0.90);
+  padding: 20px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#weather .currently {
+  margin: 0 20px;
+}
+
+
+.ui-page.ui-body-c {
+    background: url(oldWood.jpg);
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;  
+}
+
+.ui-content
+{
+    padding: 0px !important;
+}
+
+#button li {
+    display: inline;
+    height: 100px;
+}
+
+#button li a {
+    background-color: #94DDD4;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#button li a:hover {
+    color: black;
+    background-color: #FFFCDF;
+}
+
+IMG.centerimage
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+/*#newsletter:hover 
+{ 
+  background-color: #FFF; 
+  border: 1px gray solid; 
+  width: 2em; 
+} 
+/*, #newsletter .focus */
+
+#newsletter { 
+  float: left;
+  width: 25%;
+}
+
+#nobullet 
+{
+    list-style: none !important;
+}
